@@ -1,0 +1,17 @@
+name: Dailysystem
+main: MrBerlin\Dailysystem\Main
+version: 1.0.0
+api: 5.0.0
+author: MrBerlin
+description: Daily reward system
+
+commands:
+  daily:
+    description: Claim your daily reward
+    usage: /daily
+    permission: pumadaily.use
+    aliases: [reward]
+
+permissions:
+  pumadaily.use:
+    default: true
